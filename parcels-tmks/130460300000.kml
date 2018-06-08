@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+
+
+<Folder>
+  <name>QPublic Parcel</name>
+
+  <Placemark>
+    <name>130460300000</name>
+    <MultiGeometry>
+      <LineString><coordinates>-154.884550,19.473312,0 -154.884253,19.473428,0 -154.884051,19.472762,0 -154.884580,19.472620,0 -154.884763,19.473229,0 -154.884550,19.473312,0</coordinates></LineString>
+    </MultiGeometry>
+  </Placemark>
+
+</Folder>
+
+</Document>
+</kml>
