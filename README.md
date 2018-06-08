@@ -13,6 +13,8 @@ You can run the PHP files from a web browser is just on the command line with
 
 `php keepgrabbing.php`
 
+The file `keepgrabbing2.php` is the one that downloads the KML file, explained below. These filesnames are, of course, in honor of Aaron Schwartz.
+
 Because of the Map_URL issue, we'll use Selenium to open and render the page, then drill down into the Google Earth link. Then we pass that back from Selenium (using Python) to PHP. For whatever reason, using PHP code to download the KML download doens't work. But a simple `wget` does, so we execute that call.
 
 Seems pretty convoluted, but it works.
